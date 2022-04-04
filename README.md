@@ -10,6 +10,6 @@ Il faut ensuite lancer debian et éxécuter la commande :
   
 Une fois l'éxcution fini éxécuter les commandes suivantes : 
 
-  ```cd minimalist-blog-laravel
+  ```cd minimalist-blog-laravel```
  
-  ./vendor/bin/sail up -d```
+  ```./vendor/bin/sail up -d```
