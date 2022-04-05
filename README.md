@@ -1,3 +1,17 @@
+## Erreur au lancement de Docker
+
+Si vous avez une erreur mentionnant le port 3306 lors de votre lancement de Docker, c'est surement que un processus mysql tourne déjà en fond.
+Pour le trouver ouvrer un terminal est tapé :
+
+```netstat -nao```
+
+Cherchez dans la liste la ligne mentionnant le port, par exemple : 
+
+![image](https://user-images.githubusercontent.com/61062487/161768608-01f1709e-7062-4bf8-861a-36b39b58a100.png)
+
+Tout à droite de cette ligne vous trouvez un ID, ici 5060. 
+Ouvrez le moniteur de ressource et dans processeur cherchez qu'elle processus possède le PID 5060 et une fois trouvez faites clique droit et _Terminer l'arborescence du processus_
+
 ## Installation de laravel avec Docker
 
 [Lien vers la doc Laravel](https://laravel.com/docs/9.x)
