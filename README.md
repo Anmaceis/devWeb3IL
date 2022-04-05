@@ -3,18 +3,18 @@
 [Lien vers la doc Laravel](https://laravel.com/docs/9.x)
 
 Pour se faire il a fallu dans un premier temps installer WSL2 et une distribution Linux (Debian dans mon cas).
-Une fois Debian installé, il faut l'activer sous Docker et relancer le service.
+Une fois Debian installé, il faut l'activer sous Docker (comme sur l'image ci-dessous) et relancer le service.
+
+![image](https://user-images.githubusercontent.com/61062487/161767507-2bb60ebc-d9ae-4e86-8e7f-538e85a0b9fd.png)
 
 Il faut ensuite lancer debian et éxécuter la commande : 
 
   ```curl -s "https://laravel.build/minimalist-blog-laravel" | bash```
   
-  
 Une fois l'éxcution fini éxécuter les commandes suivantes : 
 
   ```cd minimalist-blog-laravel```
   ```./vendor/bin/sail up -d```
-  
   
 ## Erreur avec la commande php
 
