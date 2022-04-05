@@ -33,6 +33,13 @@ class User extends Authenticatable
         'remember_token',
     ];
 
+    /** User model **/
+    /** One to Many relation with Post **/
+    public function posts() 
+    {
+        return $this->hasMany(Post::class, 'user_id');
+    }
+
     /**
      * The attributes that should be cast.
      *
