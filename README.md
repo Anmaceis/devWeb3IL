@@ -13,3 +13,11 @@ Une fois l'éxcution fini éxécuter les commandes suivantes :
   ```cd minimalist-blog-laravel```
  
   ```./vendor/bin/sail up -d```
+  
+  
+ 
+## Erreur avec composer
+
+Dans le cas ou composer ne se lancerais pas pour des problèmes de droit taper la commande suivante :
+
+```chmod -R 666 ../minimalist-blog-laravel```
