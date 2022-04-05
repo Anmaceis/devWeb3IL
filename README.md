@@ -13,3 +13,12 @@ Une fois l'éxcution fini éxécuter les commandes suivantes :
   ```cd minimalist-blog-laravel```
  
   ```./vendor/bin/sail up -d```
+  
+  
+ 
+## Erreur avec composer
+
+Dans le cas ou composer ne se lancerais pas pour des problèmes de droit taper les deux commandes suivantes :
+
+```chmod 666 ./composer.json```
+```chmod 666 ./composer.lock```
