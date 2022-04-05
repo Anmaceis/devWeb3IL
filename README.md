@@ -1,3 +1,6 @@
+# DROUAL Antoine 3IL Bachelor IRC
+
+
 ## Erreur au lancement de Docker
 
 Si vous avez une erreur mentionnant le port 3306 lors de votre lancement de Docker, c'est surement que un processus mysql tourne déjà en fond.
@@ -82,3 +85,7 @@ Donner la nature du commit :
 Pousser le tout sur le dépôt distant :
 
 ```git push```
+
+
+![image](https://user-images.githubusercontent.com/61062487/161769126-c9d09d8d-cace-4e09-a403-69a8c0d62620.png)
+
