@@ -1,5 +1,5 @@
 {{-- extends the layouts/app.blade.php --}}
-@extends('layouts.app')
+@extends('layouts.main')
 
 @section('content')
 
