@@ -18,7 +18,6 @@ Une fois l'éxcution fini éxécuter les commandes suivantes :
  
 ## Erreur avec composer
 
-Dans le cas ou composer ne se lancerais pas pour des problèmes de droit taper les deux commandes suivantes :
+Dans le cas ou composer ne se lancerais pas pour des problèmes de droit taper la commande suivante :
 
-```chmod 666 ./composer.json```
-```chmod 666 ./composer.lock```
+```chmod -R 666 ../minimalist-blog-laravel```
