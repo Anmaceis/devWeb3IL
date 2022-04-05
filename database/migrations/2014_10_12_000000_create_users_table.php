@@ -24,6 +24,13 @@ return new class extends Migration
         });
     }
 
+    /** User model **/
+    /** One to Many relation with Post **/
+    public function posts() 
+    {
+        return $this->hasMany(Post::class, 'user_id');
+    }
+    
     /**
      * Reverse the migrations.
      *
