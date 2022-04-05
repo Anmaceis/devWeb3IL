@@ -21,6 +21,8 @@ Dans le cas ou composer ne se lancerais pas pour des problèmes de droit taper l
 
 ```chmod -R 666 ../minimalist-blog-laravel```
 
+Dans le cas où la modification de droit ne fonctionnerais pas, il faudra utiliser le composer via un [conteneur docker ](https://hub.docker.com/_/composer)
+
 
 ## Bien compiler l'application
 
