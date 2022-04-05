@@ -11,7 +11,6 @@ Il faut ensuite lancer debian et éxécuter la commande :
 Une fois l'éxcution fini éxécuter les commandes suivantes : 
 
   ```cd minimalist-blog-laravel```
- 
   ```./vendor/bin/sail up -d```
   
   
@@ -21,3 +20,34 @@ Une fois l'éxcution fini éxécuter les commandes suivantes :
 Dans le cas ou composer ne se lancerais pas pour des problèmes de droit taper la commande suivante :
 
 ```chmod -R 666 ../minimalist-blog-laravel```
+
+
+## Bien compiler l'application
+
+Après de grosse modification sur le code du site, il faut bien penser à relancer la commande :
+
+```npm run dev```
+
+Cette commande aura pour effet de recompiler le code et d'appliquer les modifications
+
+
+## Rappel GIT
+
+Après des modifications il faut bien penser à effectuer plusieurs étapes :
+
+Récupérer le code du dépot distant au cas où des choses ont étés modifiés ou ajouté : 
+
+```git pull```
+
+Une fois le code récupéré, récupérer tout les éléments modifiés : 
+
+```git add *```
+
+Donner la nature du commit :
+
+```git commit -m "Fix bug of \App\Models\Post" ```
+
+
+Pousser le tout sur le dépôt distant :
+
+```git push```
